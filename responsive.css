@@ -1,0 +1,29 @@
+/* For Tablets */
+@media (max-width: 1000px) {
+  .service {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+  .service {
+    width: 100%;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon.fa {
+    display:block;
+  }
+
+}
